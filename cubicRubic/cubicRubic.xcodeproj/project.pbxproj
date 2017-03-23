@@ -14,6 +14,8 @@
 		DFB04BEA1E841E330070077F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB04BE81E841E330070077F /* LaunchScreen.storyboard */; };
 		DFB04BF51E841E330070077F /* cubicRubicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB04BF41E841E330070077F /* cubicRubicTests.swift */; };
 		DFB04C001E841E330070077F /* cubicRubicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB04BFF1E841E330070077F /* cubicRubicUITests.swift */; };
+		DFB04C191E8425AC0070077F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB04C171E8425AC0070077F /* MainVC.swift */; };
+		DFB04C1A1E8425AC0070077F /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB04C181E8425AC0070077F /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DFB04BFB1E841E330070077F /* cubicRubicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cubicRubicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB04BFF1E841E330070077F /* cubicRubicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cubicRubicUITests.swift; sourceTree = "<group>"; };
 		DFB04C011E841E330070077F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB04C171E8425AC0070077F /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		DFB04C181E8425AC0070077F /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				DFB04BE61E841E330070077F /* Assets.xcassets */,
 				DFB04BE81E841E330070077F /* LaunchScreen.storyboard */,
 				DFB04BEB1E841E330070077F /* Info.plist */,
+				DFB04C0D1E84241E0070077F /* Controlers */,
 			);
 			path = cubicRubic;
 			sourceTree = "<group>";
@@ -123,6 +128,23 @@
 				DFB04C011E841E330070077F /* Info.plist */,
 			);
 			path = cubicRubicUITests;
+			sourceTree = "<group>";
+		};
+		DFB04C0D1E84241E0070077F /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+				DFB04C0E1E84241E0070077F /* MainVC */,
+			);
+			path = Controlers;
+			sourceTree = "<group>";
+		};
+		DFB04C0E1E84241E0070077F /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				DFB04C171E8425AC0070077F /* MainVC.swift */,
+				DFB04C181E8425AC0070077F /* MainVC.xib */,
+			);
+			path = MainVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFB04BEA1E841E330070077F /* LaunchScreen.storyboard in Resources */,
+				DFB04C1A1E8425AC0070077F /* MainVC.xib in Resources */,
 				DFB04BE71E841E330070077F /* Assets.xcassets in Resources */,
 				DFB04BE51E841E330070077F /* Main.storyboard in Resources */,
 			);
@@ -260,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFB04BE21E841E330070077F /* ViewController.swift in Sources */,
+				DFB04C191E8425AC0070077F /* MainVC.swift in Sources */,
 				DFB04BE01E841E330070077F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
